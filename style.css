@@ -136,6 +136,24 @@ body {
     margin: 1.01vh;
 }
 
+#copyright, #developed{
+    position: absolute;
+    bottom: 15px;
+    font-size: 1.2vh;
+    font-weight: 600;    
+}
+
+#copyright{
+    position: absolute; 
+    right: 2.5vh;     
+}
+
+#developed{
+    position: absolute;
+    left: 2.5vh;        
+}
+
+
 .col-3 > button, .col-6 > button{
     font-size: 3vh;
     font-weight: bold;
@@ -159,3 +177,48 @@ body {
     transform: scale(1);
 }
 
+
+/* Desktop */
+@media screen  and ( min-width: 1024px){
+   
+}
+
+/* Tablet */
+@media screen  and ( min-width: 768px) and (max-width: 1023px){
+    #copyright, #developed{        
+        font-size: 1.5vh;                
+    }
+
+    #copyright{
+        position: absolute; 
+        right: 2.5vh;     
+    }
+    
+    #developed{
+        position: absolute;
+        left: 2.5vh;        
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+    #copyright, #developed{        
+        font-size: 1.5vh;                
+    }
+
+    #copyright{
+        position: absolute;
+        bottom: 1vh; 
+        right: 0vh; 
+        width: 100%;
+        text-align: center;     
+    }
+    
+    #developed{
+        position: absolute;
+        bottom: 3.5vh;
+        left: 0vh;
+        width: 100%;
+        text-align: center;      
+    }
+}
