@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #090c31;
+    overflow: hidden;
+}
+
+#delete > button{
+    font-size: 5vh;
+    padding-bottom: 1.4vh;
+}
+
+#box-calculator {
+    position: relative;
+    background-color: #15173c;
+    width: 48vh;
+    height: 75vh;
+    border-radius: 20px;
+    box-shadow: 15px 15px 3px #2b916b;
+}
+
+#box-led {
+    position: relative;
+    height: 20vh;
+    padding: 2.3vh 2vh 0vh 2vh;
+}
+
+#panel-led {
+    position: relative;
+    background-color: #090c31;
+    height: 100%;
+    border-radius: 20px;
+    text-align: right;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#pantalla {
+    font-weight: bold;
+    font-size: 5vh;
+}
+
+#result {
+    color: #24cc8e;
+    font-weight: 600;
+    font-size: 6.5vh;
+}
+
+#box-inputs {
+    padding: 25px;
+}
+
+.row{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#delete,
+#div,
+#seven,
+#eight,
+#nine,
+#mul,
+#four,
+#five,
+#six,
+#res,
+#one,
+#two,
+#three,
+#sum,
+#punt
+{
+    background-color: #24cc8e;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 100%;
+    box-shadow: 2.5px 2.5px 1px #ffffff71;      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#equal{
+    background-color: #fa2803e8;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 100%;
+    box-shadow: 2.5px 2.5px 1px #ffffff71;      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#seven,
+#eight,
+#nine,
+#mul,
+#four,
+#five,
+#six,
+#res,
+#one,
+#two,
+#three,
+#sum{
+    margin: 1.01vh;
+}
+
+#clear,
+#zero{
+    background-color: #24cc8e;
+    height: 8vh;
+    width: 18vh;
+    border-radius: 17px;
+    box-shadow: 2.5px 2.5px 1px #ffffff71;      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clear, #delete, #div,
+#zero, #punt, #equal{
+    margin: 1.01vh;
+}
+
+.col-3 > button, .col-6 > button{
+    font-size: 3vh;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(1.06);    
+}
+
+.btn:not(:hover){
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1);
+}
+
