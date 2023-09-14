@@ -23,7 +23,7 @@ body {
 
 #box-calculator {
     position: relative;
-    background-color: #15173c;
+    background-color: #282b72;
     width: 48vh;
     height: 75vh;
     border-radius: 20px;
@@ -220,5 +220,11 @@ body {
         left: 0vh;
         width: 100%;
         text-align: center;      
+    }
+
+    #box-calculator {
+        width: 45vh;
+        height: 75vh;
+        margin-top: -12vh;
     }
 }
