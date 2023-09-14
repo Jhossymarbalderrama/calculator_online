@@ -6,5 +6,6 @@
 
 ## Calculator
 <p align="center">
-    <img src='https://github.com/Jhossymarbalderrama/calculator_online/assets/52534649/c7c6b649-c623-4f9d-95a8-176ceec63c78'/>
+    <img src='https://github.com/Jhossymarbalderrama/calculator_online/assets/52534649/098f057c-b4fd-4b40-8f5c-904ab4b6b355'/>
 </p>
+
